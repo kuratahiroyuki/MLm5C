@@ -18,7 +18,7 @@ Before simulation, users build dataset files for cross validataion and independe
 >sh data_prep.sh
   
 # 3 Baseline model
-Encoding: DNC TNC RCKmer ENAC binary CKSNAP NCP ANF EIIP PseEIIP PSTNPss 
+Encoding: DNC TNC RCKmer ENAC binary CKSNAP NCP ANF EIIP PseEIIP PSTNPss  
 Machine learning: RF SVM XGB LGBM
 ## 3-1 Training and testing of baseline models
 $cd program/network
