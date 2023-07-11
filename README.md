@@ -13,7 +13,7 @@
 # 1 Setting directories
 Users must keep the directory structure
 
-# 2 Construction of dataset and ESPF
+# 2 Construction of dataset
 Before simulation, users build dataset files for cross validataion and independent test:
 >sh data_prep.sh
   
@@ -26,14 +26,14 @@ $sh main.sh
 (ml_train_test_m5C.py) 
 
 ## 3-2 Prediction performance visualization
-To see the prediction results, users must set the input parameters in analysis.py.
+To see the prediction results, users must set the input parameters in "analysis.py".
 $cd program
 $python analysis.py
 
 # 4 Combination of selected baseline models
-To make a combined model, users must set the input parameters in ml_fusion_m5C.py
+To make a combined model, users must perform "analysis.py" to make the input files necessary for "ml_fusion_m5C.py" and then set the input parameters in "ml_fusion_m5C.py"
 $cd program/network
-$ml_fusion_m5C.py
+$python ml_fusion_m5C.py
 The final prediction results by the combined model is saved in /data/result/combine.csv
 
 # References on RNA encodings
