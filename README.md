@@ -1,13 +1,13 @@
 # MLm5C
 
 # Develoepment environment
- >python 3.8.8 
- >anaconda 4.11.0 
- >pandas 1.2.5 
- >numpy 1.20.3 
- >scikit-learn 1.1.2 
- >lightgbm 3.2.1 
- >xgboost  1.4.2 
+ >python 3.8.8  
+ >anaconda 4.11.0  
+ >pandas 1.2.5  
+ >numpy 1.20.3  
+ >scikit-learn 1.1.2  
+ >lightgbm 3.2.1  
+ >xgboost  1.4.2  
 
 # Execution
 # 1 Setting directories
@@ -21,7 +21,8 @@ Before simulation, users build dataset files for cross validataion and independe
 Encoding: DNC TNC RCKmer ENAC binary CKSNAP NCP ANF EIIP PseEIIP PSTNPss  
 Machine learning: RF SVM XGB LGBM 
 ## 3-1 Training and testing of baseline models
-$cd program/network 
+$cd program/network
+
 $sh main.sh 
 (ml_train_test_m5C.py) 
 
