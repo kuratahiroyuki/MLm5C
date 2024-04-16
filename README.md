@@ -1,26 +1,26 @@
 # MLm5C
 
 # Develoepment environment
- >python 3.8.8 
- >anaconda 4.11.0 
- >pandas 1.2.5
- >numpy 1.20.3
- >lightgbm: 3.1.1
- >xgboost: 1.7.6
- >sklearn: 1.1.2
- >gensim: 4.0.1
+ >python 3.8.8   
+ >anaconda 4.11.0  
+ >pandas 1.2.5  
+ >numpy 1.20.3  
+ >lightgbm: 3.1.1  
+ >xgboost: 1.7.6  
+ >sklearn: 1.1.2  
+ >gensim: 4.0.1  
 
 # Execution
 # 1 Setting directories
 Users must keep the structure of the directories
 
 # 2 Construction of dataset
-Before simulation, users build dataset files for cross validataion and independent test:
+Before simulation, users build dataset files for cross validataion and independent test:  
 $sh data_prep.sh
   
 # 3 Baselin model construction and ensemble model construction
-$cd program
-$sh process.sh
+$cd program  
+$sh process.sh  
 
 ## 3-1 Training and testing of the baseline models
 ml_train_test_64.py
