@@ -24,7 +24,6 @@ $sh process.sh
 
 ## 3-1 Training and testing of the baseline models
 ml_train_test_64.py
-dl_train_test_1.py
 
 ## 3-2 Evaluation of the baseline models
 analysis_622.py
