@@ -1,6 +1,6 @@
 # MLm5C
 
-# Develoepment environment
+# Development environment
  >python 3.8.8   
  >anaconda 4.11.0  
  >pandas 1.2.5  
